@@ -1,0 +1,78 @@
+.topNav {
+  background-color: black;
+  color: white;
+  height: 37px;
+  margin-bottom: 0px;
+  text-align: center;
+  padding: 1px;
+}
+.backGround {
+  margin-top: 0px;
+  background-image: url(./hotel3.jpg);
+  height: 650px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  filter: blur(8px);
+}
+.flex {
+  border: 1px solid black;
+  border-radius: 500px;
+  display: flex;
+  justify-content: space-between;
+  padding: 9px;
+  width: 60%;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 50px;
+  background-color: white;
+  color: black;
+}
+.vLine {
+  border-left: 2px solid gray;
+  height: 10%px;
+}
+.purple {
+  background-color: purple;
+  color: white;
+  border-radius: 50%;
+  padding: inherit;
+}
+.capsule {
+  border-radius: 500px;
+  background-color: white;
+  width: 15%;
+  color: black;
+  text-align: center;
+}
+
+.margin {
+  margin-left: 75px;
+  margin-bottom: revert;
+  padding: 42px;
+}
+h1 {
+  font-size: 50px;
+}
+.right {
+  position: absolute;
+  right: 150px;
+  font-size: large;
+  color: red;
+}
+.center {
+  text-decoration: underline;
+  text-decoration-color: black;
+  margin-top: 45px;
+  text-align: center;
+  color: black;
+}
+.signInButton {
+  margin-top: 113px;
+  margin-left: 252px;
+}
