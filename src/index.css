@@ -60,6 +60,9 @@ h1 {
   font-size: 50px;
 }
 .right {
+  height: 50px;
+  background-color: cornsilk;
+  display: flex;
   position: absolute;
   right: 150px;
   font-size: large;
@@ -75,4 +78,7 @@ h1 {
 .signInButton {
   margin-top: 113px;
   margin-left: 252px;
+}
+.right span {
+  padding-top: 22px;
 }

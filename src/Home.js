@@ -1,5 +1,6 @@
 
 import { FaSistrix } from 'react-icons/fa';
+import { AiOutlineGlobal } from "react-icons/ai";
 
 function Home() {
   return (
@@ -9,7 +10,12 @@ function Home() {
         <div className="topNav"><p>Get the latest on out COVID-19 response</p></div>
 
         <div>
-          <h5 className="right">Switch to hosting</h5>
+          <div className="right">
+            <h5 >Switch to hosting</h5>
+           <span> <AiOutlineGlobal style={{color:"black"}} /></span>
+
+          </div>
+          
           <div className="center"><h4 >Places to stay</h4></div>
 
           <div className="flex">
